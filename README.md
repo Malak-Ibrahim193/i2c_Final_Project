@@ -1,5 +1,4 @@
 # i2c_Final_Project
-# i2c_Final_Project
 
 A synthesizable I2C Master Controller implementation in Verilog HDL, fully validated using ModelSim simulation.
 
@@ -23,8 +22,7 @@ This project implements an FSM-driven I2C Master controller capable of driving s
 
 The simulation demonstrates a complete write transaction to slave address `0x3A` (`0111010`) with data payload `0xA5` (`10100101`):
 
-![ModelSim Simulation Waveform](<img width="1637" height="847" alt="Screenshot 2026-07-25 010823" src="https://github.com/user-attachments/assets/5218a302-36c0-4ce8-b9df-fcfb6abff1dc" />
-)
+![ModelSim Simulation Waveform](WaveForm.png)
 
 ### Key Transaction Steps:
 1. **Start Condition:** `sda` pulled low while `scl` remains high.
